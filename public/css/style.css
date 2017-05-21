@@ -1,0 +1,309 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  color:#fff !important;
+}
+
+a:hover {
+  color:#D46A57 !important;
+}
+
+
+a, button, input[type=submit] {
+  cursor: pointer; !important;
+}
+
+.nav-link:hover:after{
+  content:' ';
+  display:block;
+  border:1px solid #D46A57;
+  margin-top:-5px;
+}
+
+nav ul li {
+  padding-left: 30px;
+  text-align:center;
+}
+.nav-link{
+  line-height: 40px;
+}
+.banner {
+  position:relative;
+}
+
+.banner .social-btns {
+  position: absolute;
+  bottom: 0;
+  left: 50%;  
+  transform: translate(-50%, -50%);
+  width:100%;
+}
+
+.social-btns a{
+  margin-bottom: 10px;
+  background-color: #243958;
+  color: #fff;
+  border: 2px solid #D46A57;
+  font-size: 1.5em;
+}
+
+.social-btns a:hover{
+  background-color: #fff;
+  color: #243958 !important;
+}
+.active:after{
+  content:' ';
+  display:block;
+  border:1px solid #fff;
+  margin-top:-5px;
+}
+
+.footer a{
+  color: #fff;
+  margin: 0;
+  padding: 10px 10px;
+}
+
+.footer a:hover{
+  color: #D46A57;
+}
+
+.banner img{
+  height: 100vh;
+  width: 100%;
+  object-fit:cover;
+  margin: 0;
+  padding: 0;
+}
+section {
+  margin: 10px 0;
+}
+
+h2:after {
+  content:' ';
+  display:block;
+  border:2px solid #053452;
+  width: 20%;
+  margin-left: 40%;
+  margin-top:10px;
+  margin-bottom:30px;
+}
+
+.blue-bg {
+    background-color:#10284a;
+}
+
+section {
+  padding-top: 30px;
+}
+
+.navbar-brand {
+margin-left: 6%;
+
+}
+
+.navbar-nav {
+margin-right: 9%;
+}
+
+
+#about img {
+  width:100%;
+  height: 280px;
+  object-fit: cover;
+  vertical-align:middle;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
+footer {
+  height: 80px;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.site-images {
+  display: inline-block;
+  width: 100%;
+}
+
+.site-images img {
+  padding: 5px;
+  object-fit: cover;
+  height: 200px;
+}
+
+
+h5 {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+    margin: 0;
+}
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+.card-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.profile {
+    position: absolute;
+    top: -12px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+
+.profile-inline ~ .card-title {
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: top;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.meta {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+
+.white-bg-links {
+  color:#D46A57 !important;
+}
+
+.white-bg-links:hover {
+  color:#000 !important;
+}
+
+/*--Desktop 1023px to 1200px*/
+@media only screen and (max-width: 1200px) {
+  
+}
+/*--Tablets 768px to 1024px*/
+@media only screen and (max-width: 768px) {
+  .content p {
+      margin-top: 20px;
+    }
+   .navbar-brand {
+    font-size: 1.6em;
+   } 
+}
+
+
+/*--SMALL TABLETS 481px to 767px*/
+@media only screen and (max-width: 480px) {
+   .banner .social-btns {
+      bottom: -50px;
+    }
+    .social-btns a{
+      font-size: 1.6em;
+    }
+
+
+
+}
+
+
+/*--SMALL DEVICES 0 to 480px*/
+@media only screen and (max-width: 320px) {
+     .banner .social-btns {
+      bottom: -50px;
+    }
+    .social-btns a{
+      font-size: 1.2em;
+    }
+
+    .content p {
+      margin-top: 20px;
+    }
+
+    .g-recaptcha {
+      margin-bottom: 10px;
+    }
+
+    .navbar-brand {
+    font-size: 1.2em;
+   } 
+}
+
+
+
