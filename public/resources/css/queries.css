@@ -1,0 +1,148 @@
+/*--Desktop 1023px to 1200px*/
+@media only screen and (max-width: 1200px) {
+		.intro { margin: 20px 0 0 0; }
+		.buttons{ margin: 30px 0 10px 0; }
+}
+
+/*--Tablets 768px to 1024px*/
+@media only screen and (max-width: 1023px) {
+	.section-left h1 {
+		margin-top: 5px;
+		font-size: 200%;
+	}
+	
+	.btn:link,
+	.btn:visited {
+	display: inline-block;
+	padding: 10px 20px;
+
+	}
+	
+	.social-links a:link,
+	.social-links a:visited {
+		font-size:120%;
+	}
+
+	
+	.row {
+		max-width:95%;
+		margin-left: 2.5%;
+	}
+	
+	.panel-inner {
+		padding: 0;
+	}
+	
+	.section-right h2, .works {
+	margin-left: 15px;
+	}
+	
+	.btn-small:link,
+	.btn-small:visited {
+	padding: 5px 10px;
+	font-size:80%;
+
+	}
+}
+
+
+/*--SMALL TABLETS 481px to 767px*/
+@media only screen and (max-width: 767px) {
+	.row, .col {
+		width: 100%;
+	}
+	
+	.panel-header {
+		width: 100%;
+	}
+	
+	.panel-header div a {
+		float: left !important;
+		margin-top: -10px !important;
+		margin-left: -5px !important;
+	}
+	
+	.panel-body:before {
+		margin: 40px 0 20px 0 ;
+	}
+	
+	.panel-inner {
+		height: 90vh !important;
+	}
+	
+	.vbox-inline {
+		height: 90vh;
+	}
+	
+	.btn:link,
+	.btn:visited {
+	padding: 6px 20px;
+	font-size:90%;
+	margin-right: 5px;
+	}
+	
+	.contact div{
+	margin: 10px 0 10px 0;
+
+	}
+	
+	.social-links {
+		padding: 20px;
+	}
+	
+	.social-links a:link,
+	.social-links a:visited {
+		font-size:170%;
+		margin-right: 10px;
+	}
+	
+	.section-right  {
+		text-align: center;
+		border-left: 0;
+	}
+	
+	.section-right h2 {
+		margin-top: 30px;
+	}
+	
+	.btn-small:link,
+	.btn-small:visited{ 
+	   margin-right: 20px;
+	}
+
+}
+
+
+/*--SMALL DEVICES 0 to 480px*/
+@media only screen and (max-width: 480px) {
+	.section-right  {
+		margin: 0 0 0 -10px;
+		border: 0;
+	}
+	
+	.row {
+		width: 100%;
+	}
+	
+	.btn:link,
+	.btn:visited {
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 10px;
+	width: 50%;	
+
+	}
+	
+	.btn-small:link,
+	.btn-small:visited{ 
+	   padding: 8px;
+	   width: 60%;
+	   margin-left: 20%;
+	   margin-bottom: 25px;	
+	   text-align: center;	
+	   font-size: 90%;	
+	}
+}
+
+
+
